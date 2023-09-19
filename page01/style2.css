@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    /* background: linear-gradient(rgba(53, 59, 59, 0.7),rgba(53, 59, 59, 0.7)), url(lighthouse-8191282_1280.jpg); */
+    background: linear-gradient( 0deg, rgba(53, 53, 53, 0.6),rgba(53, 53, 53, 0.6)) ,url(lighthouse-8191282_1280.jpg) ;
+   height: 100vh;
+   display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   color: aliceblue;
+   background-size: cover;
+
+}
+h5{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+h1{
+    font-size: 35px;
+    font-family: monospace;
+}
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  
+}
+.hero-btn a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.btn1{
+    padding: 12px;
+    background-color: rgb(4, 239, 247);
+    margin-right: 25px;
+    border-radius: 8px;
+}
+.btn2{
+    padding: 12px;
+    background-color: rgb(19, 219, 152);
+    margin-left: 25px;
+    border-radius: 8px;
+}
+
